@@ -30,3 +30,14 @@ The application provides tools to manage stock levels, purchases, sales, client 
 1. Clone the repository:
    ```bash
    git clone https://github.com/nicolas-machuca/inventory-management-desktop.git
+
+2. Open the .sln file using Visual Studio (2022 or newer recommended).
+   
+3. Restore NuGet packages if necessary.
+   
+4. Run the project (F5). The application will use the included example configuration file.
+   
+5. To test with example data, generate a new SQLite database and run the seed script:
+   ```bash
+   sqlite3 AdminSERMAC.db < Scripts/seed_example.sql
+   
