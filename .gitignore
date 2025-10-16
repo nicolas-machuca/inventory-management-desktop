@@ -1,0 +1,50 @@
+# -------------------------
+# Visual Studio / .NET
+# -------------------------
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio cache
+.vs/
+
+# -------------------------
+# NuGet / Packages
+# -------------------------
+packages/
+*.nupkg
+*.snupkg
+
+# -------------------------
+# SQLite / Local Data
+# -------------------------
+*.db
+*.sqlite
+*.sqbpro
+
+# -------------------------
+# Configuration / Secrets
+# -------------------------
+appsettings.json
+*.Secrets.json
+
+# -------------------------
+# Misc
+# -------------------------
+*.log
+*.tmp
