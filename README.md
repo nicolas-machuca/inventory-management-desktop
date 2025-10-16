@@ -40,4 +40,16 @@ The application provides tools to manage stock levels, purchases, sales, client 
 5. To test with example data, generate a new SQLite database and run the seed script:
    ```bash
    sqlite3 AdminSERMAC.db < Scripts/seed_example.sql
-   
+
+## Screenshots
+
+A quick tour of the application, from navigation to core operations.
+
+| Main Menu | Inventory Menu | Inventory View |
+|-----------|---------------|----------------|
+| ![Main Menu](./MenuPrincipal.png) | ![Inventory Menu](./MenuGestionInventario.png) | ![Inventory View](./VisualizarInventarioGestionInventario.png) |
+
+| Clients Module | Purchases | Sales |
+|---------------|-----------|-------|
+| ![Clients Module](./ModuloGestionClientes.png) | ![Purchases](./CompraGestionInventario.png) | ![Sales](./ModuloVentas.png) |
+
